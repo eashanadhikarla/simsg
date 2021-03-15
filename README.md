@@ -1,1 +1,1 @@
-# Ensemble-Generative-Image-Manipulation
+# Semantic-Image-Manipulation
