@@ -45,6 +45,11 @@ echo $PWD > <paste_the_copied_path_from_step_7>/lib/python3.7/site-packages/sims
 We have the dataset and the models already preprocessed. 
 Below is the dropbox link for download.
 
+datasets : 
+experiments : 
+
+Overall Folder Structure:
+
 
 
 

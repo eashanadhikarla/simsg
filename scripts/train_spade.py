@@ -22,12 +22,12 @@ Date Created  : Apr 11' 2021
 Data Modified : Apr 29' 2021
 
 '''
+
 import os, sys
 import random, yaml
 import shutil
 import torch
 from scripts.train import main as train_main
-
 
 
 config = {  "seed": 1,
