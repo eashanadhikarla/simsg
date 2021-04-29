@@ -31,13 +31,19 @@ conda activate sim
 # Step 5. If using CUDA use cudatookkit (else remove `cudatoolkit` from the below cmd)
 conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
 
-# Step 6. 
+# Step 6. Install Pip requirements that were missing in Conda
+python3.7 -m pip install opencv-python tensorboardx grave addict
+
+# Step 7. 
 which python ( >> copy the output path minus `/bin/python` )
 
-# Step 7.
-echo $PWD > <paste_the_copied_path_from_step_6>/lib/python3.7/site-packages/simsg.pth
+# Step 8.
+echo $PWD > <paste_the_copied_path_from_step_7>/lib/python3.7/site-packages/simsg.pth
 
 ```
+
+We have the dataset and the models already preprocessed. 
+Below is the dropbox link for download.
 
 
 
