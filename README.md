@@ -1,4 +1,4 @@
-# Semantic-Image-Manipulation
+# Semantic-Image-Manipulation (simsg)
 
 <p align="right", style="font-size:30px"><b>Authors:</b><br />Jitong Ding<br />Eashan Adhikarla</p>
 
@@ -17,10 +17,10 @@ Code Setup:
 
 ```
 # Step 1. Cloning the repository
-git clone https://github.com/eashanadhikarla/Semantic-Image-Manipulation.git
+git clone https://github.com/eashanadhikarla/simsg.git
 
 # Step 2. Go into the Directory
-cd Semantic-Image-Manipulation
+cd simsg
 
 # Step 3. Create a new conda environment
 conda create --name sim python=3.7 --file requirements.txt
