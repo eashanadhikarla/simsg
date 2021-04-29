@@ -1,8 +1,8 @@
-# Semantic-Image-Manipulation (simsg)
+## Semantic-Image-Manipulation (simsg)
 
 <p align="right", style="font-size:30px"><b>Authors:</b><br />Jitong Ding<br />Eashan Adhikarla</p>
 
-## Reproducing Paper with Improvements
+### Reproducing Paper with Improvements
 Paper: [Semantic Image Manipulation Using Scene Graphs](https://openaccess.thecvf.com/content_CVPR_2020/papers/Dhamo_Semantic_Image_Manipulation_Using_Scene_Graphs_CVPR_2020_paper.pdf)
 Dhamo et al., CVPR 2020 
 
@@ -13,7 +13,7 @@ For the code setup we use the anaconda environment. Please follow the setup belo
 reproduce the environment and run code.
 Note: Python version 3.7 is must.
 
-Code Setup:
+### Code Setup:
 
 ```
 # Step 1. Cloning the repository
@@ -45,10 +45,12 @@ echo $PWD > <paste_the_copied_path_from_step_7>/lib/python3.7/site-packages/sims
 We have the dataset and the models already preprocessed. 
 Below is the dropbox link for download.
 
+```
 datasets : https://www.dropbox.com/sh/03u4d3dhifdywz8/AABjone998j6bgb8G0EYh5g5a?dl=0
 experiments : https://www.dropbox.com/sh/w001qymczovq5tn/AACHQN3C2JlBFAJR3xMTFlDea?dl=0
+```
 
-Overall Folder Structure:
+### Overall Folder Structure:
 
 - root
 	- dataset (download from the link above)
@@ -60,15 +62,15 @@ Overall Folder Structure:
 	- requirements.txt
 
 
-Run Code:
-## Train:
+## Run Code:
+### Train:
 
 python scripts/train_spade.py 
 python scripts/train_crn.py
 
 Note: (To change the input size, you can change input_size and batch_size in train_spade.py/train_crn.py)
 
-## Evaluation:
+### Evaluation:
 
 python scripts/evaluate_clevr.py \
 --exp_dir ./experiments/clevr_models \
