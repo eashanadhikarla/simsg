@@ -1,18 +1,29 @@
-#!/usr/bin/python
-#
-# Copyright 2020 Helisa Dhamo
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+'''
+!/usr/bin/python
+
+Copyright 2018 Google LLC
+Modification copyright 2020 Helisa Dhamo, Azade Farshad
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+--------------------------------------------------------------------------
+
+Authors       : Eashan Adhikarla & Jitong Ding
+Date Created  : Apr 09' 2021
+Data Modified : Apr 29' 2021
+Description   : Script to train SIMSG | CRN - 64 & SPADE - 64
+
+'''
 
 """
 This script can be used to generate images with changes for Visual Genome for evaluation.
