@@ -19,7 +19,7 @@ limitations under the License.
 
 --------------------------------------------------------------------------
 
-Authors       : Eashan Adhikarla & Jitong Ding
+Authors       : Eashan Adhikarla
 Date Created  : Apr 09' 2021
 Data Modified : Apr 29' 2021
 Description   : Script to train SIMSG | CRN - 64 & SPADE - 64
