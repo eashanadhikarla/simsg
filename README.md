@@ -7,7 +7,7 @@ Paper: [Semantic Image Manipulation Using Scene Graphs](https://openaccess.thecv
 Dhamo et al., CVPR 2020 
 
 This is a reproduction of the paper with minor improvements in architecture and loss functions.
-We have improvement the training time of the model by reducing the code structure complexity.
+We have improved the training time of the model by reducing the code structure complexity.
 
 For the code setup we use the anaconda environment. Please follow the setup below to
 reproduce the environment and run code.
