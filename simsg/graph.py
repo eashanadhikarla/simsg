@@ -36,6 +36,7 @@ def _init_weights(module):
     if isinstance(module, nn.Linear):
       nn.init.kaiming_normal_(module.weight)
 
+
 class GraphTripleConv(nn.Module):
   """
   A single layer of scene graph convolution.
@@ -110,7 +111,7 @@ class GraphTripleConv(nn.Module):
     pooled_obj_vecs = pooled_obj_vecs.scatter_add(0, o_idx_exp, new_o_vecs)
 
     if self.pooling == 'avg':
-      #print("here i am, would you send me an angel")
+      # print("here i am, would you send me an angel")
       # Figure out how many times each object has appeared, again using
       # some scatter_add trickery.
       obj_counts = torch.zeros(num_objs, dtype=dtype, device=device)

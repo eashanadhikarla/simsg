@@ -93,6 +93,7 @@ config = {  "dataset"                    : "clevr",
             "num_val_samples"            : 1024,
             "learning_rate"              : 2e-4,
             "eval_mode_after"            : 100000,
+            "num_val_samples"            : 1024,
         }
 
 

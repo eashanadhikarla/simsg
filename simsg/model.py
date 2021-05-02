@@ -54,8 +54,8 @@ class SIMSGModel(nn.Module):
     a manipulated image that satisfies the scene graph constellations
     """
     def __init__(self, vocab, image_size=(64, 64), embedding_dim=64,
-                 gconv_dim=128, gconv_hidden_dim=512,
-                 gconv_pooling='avg', gconv_num_layers=5,
+                 gconv_dim=128, gconv_hidden_dim=512, # 512 # 256
+                 gconv_pooling='avg', gconv_num_layers=5, # 7
                  decoder_dims=(1024, 512, 256, 128, 64),
                  normalization='batch', activation='leakyrelu-0.2',
                  mask_size=None, mlp_normalization='none', layout_noise_dim=0,
